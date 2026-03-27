@@ -1,0 +1,11 @@
+/* src/index.css */
+@import "tailwindcss";
+
+body {
+  /* Change bg-white to bg-gray-100 here to kill the strip */
+  @apply text-black bg-gray-100;
+  margin: 0;
+  padding: 0;
+}::-webkit-scrollbar {
+  width: 4px;
+}
